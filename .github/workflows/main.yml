@@ -1,0 +1,25 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      user: action/checkout@v2
+
+    - name: Setup MSBuild
+      user: microsofr/setup-msbuild@1.0.1
+
+    - name: Build
+      run: msbuild /p:Configuration=Release
+
+    -name: Run tests
+      run: |
+        # Run your tests here
+        # Example: dotnet test
+    # Add more steps for deploying or other tasks as builds
