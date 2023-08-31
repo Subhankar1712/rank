@@ -18,8 +18,6 @@ jobs:
     - name: Build
       run: msbuild /p:Configuration=Release
 
-    -name: Run tests
-      run: |
         # Run your tests here
         # Example: dotnet test
     # Add more steps for deploying or other tasks as builds
