@@ -22,4 +22,3 @@ jobs:
       run: |
         cd path/to/tests
         your-test-command-here
-    # Add more steps for deploying or other tasks as builds
