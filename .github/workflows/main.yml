@@ -20,6 +20,5 @@ jobs:
     
     - name: Run Tests
       run: |
-        # Run your tests here
-        # Example: dotnet test
+
     # Add more steps for deploying or other tasks as builds
