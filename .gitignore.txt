@@ -1,0 +1,13 @@
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+#Ignore build artifacts
+/build/
+
+# Ignore user-specific settings
+/config.ini
